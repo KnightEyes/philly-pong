@@ -1,0 +1,191 @@
+[
+  {
+    "id": "east-poplar-01",
+    "name": "East Poplar Playground",
+    "location": {
+      "address": "N 8th St & Brown St",
+      "neighborhood": "Poplar / Callowhill",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "19123"
+    },
+    "environment": "Indoor",
+    "tableCount": 2,
+    "netQuality": "Portable/Rec",
+    "surfaceType": "Tile",
+    "pricing": {
+      "isFree": true,
+      "costDetails": "Free public park amenity"
+    },
+    "amenities": {
+      "paddlesProvided": true,
+      "ballsProvided": true,
+      "lighting": "Limited (Daylight only)",
+      "drinksAvailable": true
+    },
+    "hours": "Monday, Tuesday and Thursday Evenings (6pm - 10pm) ",
+    "notes": "Great neighborhood community park featuring a renovated space and casual indoor play."
+  },
+  {
+    "id": "love-park-01",
+    "name": "LOVE Park (JFK Plaza)",
+    "location": {
+      "address": "150 Arch St",
+      "neighborhood": "Center City",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "19102"
+    },
+    "environment": "Outdoor",
+    "tableCount": 2,
+    "netQuality": "Portable/Rec",
+    "surfaceType": "Concrete",
+    "pricing": {
+      "isFree": true,
+      "costDetails": "Free public space"
+    },
+    "amenities": {
+      "paddlesProvided": false,
+      "ballsProvided": false,
+      "lighting": "Excellent (Indoor/Floodlights)",
+      "drinksAvailable": true
+    },
+    "hours": "6:00 AM - 12:00 AM",
+    "notes": "Iconic center city plaza spot; tables occasionally pop up for seasonal or casual outdoor community play."
+  },
+  {
+    "id": "seger-park-01",
+    "name": "Seger Park",
+    "location": {
+      "address": "1020 Lombard St",
+      "neighborhood": "Washington Square West",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "19147"
+    },
+    "environment": "Outdoor",
+    "tableCount": 1,
+    "netQuality": "Standard",
+    "surfaceType": "Composite/Weatherproof",
+    "pricing": {
+      "isFree": true,
+      "costDetails": "Free public park"
+    },
+    "amenities": {
+      "paddlesProvided": false,
+      "ballsProvided": false,
+      "lighting": "Good",
+      "drinksAvailable": false
+    },
+    "hours": "7:00 AM - 10:00 PM",
+    "notes": "Popular neighborhood spot in Washington Square West with a dedicated outdoor weather-resistant table purchased by the local advisory council."
+  },
+  {
+    "id": "spin-philly-01",
+    "name": "SPiN Philadelphia",
+    "location": {
+      "address": "211 S 15th St",
+      "neighborhood": "Center City",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "19102"
+    },
+    "environment": "Indoor",
+    "tableCount": 12,
+    "netQuality": "Professional",
+    "surfaceType": "ITTF Approved Wood",
+    "pricing": {
+      "isFree": false,
+      "costDetails": "Hourly table rental varies by peak/off-peak times"
+    },
+    "amenities": {
+      "paddlesProvided": true,
+      "ballsProvided": true,
+      "lighting": "Excellent (Indoor/Floodlights)",
+      "drinksAvailable": true
+    },
+    "hours": "Wed-Sun evenings (Check site for exact hours)",
+    "notes": "Upscale ping pong social club with a full bar and music."
+  },
+  {
+    "id": "trolley-car-ttc",
+    "name": "Trolley Car Table Tennis Club",
+    "location": {
+      "address": "3300 Henry Avenue",
+      "neighborhood": "East Falls",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "19129"
+    },
+    "environment": "Indoor",
+    "tableCount": 11,
+    "netQuality": "Professional",
+    "surfaceType": "ITTF Approved Wood",
+    "pricing": {
+      "isFree": false,
+      "costDetails": "Daily play rates, plus monthly/yearly membership options"
+    },
+    "amenities": {
+      "paddlesProvided": true,
+      "ballsProvided": true,
+      "lighting": "Evenly spaced fluorescent court lighting",
+      "drinksAvailable": true
+    },
+    "hours": "Mon-Fri: 6 PM – 10 PM, Sat-Sun: 12 PM – 5 PM",
+    "notes": "Philadelphia's dedicated non-profit table tennis club located in the Falls Center Campus. Professional PVC flooring and Killerspin tournament tables."
+  },
+  {
+    "id": "frankford-hall",
+    "name": "Frankford Hall",
+    "location": {
+      "address": "1210 Frankford Ave",
+      "neighborhood": "Fishtown",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "19125"
+    },
+    "environment": "Outdoor",
+    "tableCount": 2,
+    "netQuality": "Standard",
+    "surfaceType": "Composite/Weatherproof",
+    "pricing": {
+      "isFree": true,
+      "costDetails": "Free to play while grabbing food or drinks (first-come, first-served)"
+    },
+    "amenities": {
+      "paddlesProvided": true,
+      "ballsProvided": true,
+      "lighting": "Outdoor ambient lighting",
+      "drinksAvailable": true
+    },
+    "hours": "Open daily during standard biergarten hours",
+    "notes": "A popular open-air German biergarten vibe where casual outdoor tables are set up for patrons."
+  },
+  {
+    "id": "west-jersey-ttc",
+    "name": "West Jersey Table Tennis Center",
+    "location": {
+      "address": "3559 Pennsylvania Ave",
+      "neighborhood": "Pennsauken",
+      "city": "Pennsauken Township",
+      "state": "NJ",
+      "zip": "08109"
+    },
+    "environment": "Indoor",
+    "tableCount": 8,
+    "netQuality": "Professional",
+    "surfaceType": "ITTF Approved Wood",
+    "pricing": {
+      "isFree": false,
+      "costDetails": "Affordable daily drop-in fees for open play and structured training"
+    },
+    "amenities": {
+      "paddlesProvided": true,
+      "ballsProvided": true,
+      "lighting": "Standard indoor gym lighting",
+      "drinksAvailable": false
+    },
+    "hours": "Varies by schedule/events (Check WJTTC calendar)",
+    "notes": "Located just across the bridge in NJ inside the Pennsauken United Methodist Church gym (rear entrance ramp). A welcoming community spot for local players and enthusiasts."
+  }  
+]
