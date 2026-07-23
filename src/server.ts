@@ -1,8 +1,10 @@
 import express from 'express';
 import * as dataService from './dataService.js';
 import cors from 'cors';
+import path from 'path';
 
 const app = express();
+const frontendPath = path.join(process.cwd(), 'philly-pong-ui', 'src');
 app.use(cors());
 app.use(express.json()); // <--- THIS IS CRITICAL: It allows Express to read JSON bodies
 
