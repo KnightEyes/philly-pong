@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // Point robustly to the philly-pong-ui/dist folder relative to the project root
-const frontendPath = path.resolve(__dirname, '../../philly-pong-ui/dist');
+const frontendPath = path.join(__dirname, '../philly-pong-ui/dist');
 app.use(express.static(frontendPath));
 
 // API Routes
