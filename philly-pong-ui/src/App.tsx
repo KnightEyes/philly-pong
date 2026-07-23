@@ -12,7 +12,7 @@ export function App() {
   const [priceFilter, setPriceFilter] = useState<'All' | 'Free' | 'Paid'>('All');
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/tables')
+    fetchhttps://philly-pong.onrender.com/')
       .then((res) => {
         if (!res.ok) throw new Error('Failed to fetch tables');
         return res.json();
