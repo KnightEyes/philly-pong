@@ -4,7 +4,21 @@ import cors from 'cors';
 import path from 'path';
 
 const app = express();
-const frontendPath = path.join(process.cwd(), 'philly-pong-ui', 'src');
+
+// Point this to where your built/public frontend folder is located
+const frontendPath = path.join(process.cwd(), 'philly-pong-ui', 'src'); 
+app.use(express.static(frontendPath));
+
+// Fallback for single-page routing
+app.get(/.*/, (req, res) => {
+  res.sendFile(path.join(frontendPath, 'index.html'));
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
 app.use(cors());
 app.use(express.json()); // <--- THIS IS CRITICAL: It allows Express to read JSON bodies
 
