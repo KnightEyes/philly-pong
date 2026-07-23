@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "tsx server.ts"
-  },
+  "build": "npm install --prefix philly-pong-ui && npm run build --prefix philly-pong-ui",
+  "start": "tsx server.ts"
+},
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
