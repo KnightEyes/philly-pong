@@ -17,6 +17,10 @@ const frontendPath = path.join(__dirname, '../philly-pong-ui/dist');
 app.use(express.static(frontendPath));
 
 // API Routes
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+}
+
 app.get('/api/tables', async (req, res) => {
     try {
         const tables = await dataService.getTables();
