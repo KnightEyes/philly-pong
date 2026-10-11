@@ -1,33 +1,4 @@
 [
-
-{
-  id: "palumbo-rec-center",
-  name: "Palumbo Recreation Center",
-  location: {
-    address: "725 S 10th St",
-    neighborhood: "Bella Vista",
-    city: "Philadelphia",
-    state: "PA",
-    zip: "19147"
-  },
-  environment: "Indoor",
-  tableCount: 3, // Updated to 3 tables
-  netQuality: "Portable/Rec",
-  surfaceType: "ITTF Approved Wood",
-  pricing: {
-    isFree: true,
-    costDetails: "Public Philadelphia Parks & Recreation center"
-  },
-  amenities: {
-    paddlesProvided: false,
-    ballsProvided: false,
-    lighting: "Excellent (Indoor/Floodlights)",
-    drinksAvailable: false
-  },
-  hours: "Fridays starting at 6 PM", // Updated schedule for ping pong
-  notes: "Popular neighborhood community hub in Bella Vista. Dedicated ping pong session runs Fridays starting at 6 PM."
-},
-
   {
     "id": "east-poplar-01",
     "name": "East Poplar Playground",
