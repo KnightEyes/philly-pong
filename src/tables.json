@@ -162,33 +162,6 @@
     "notes": "Philadelphia's dedicated non-profit table tennis club located in the Falls Center Campus. Professional PVC flooring and Killerspin tournament tables."
   },
   {
-    "id": "frankford-hall",
-    "name": "Frankford Hall",
-    "location": {
-      "address": "1210 Frankford Ave",
-      "neighborhood": "Fishtown",
-      "city": "Philadelphia",
-      "state": "PA",
-      "zip": "19125"
-    },
-    "environment": "Outdoor",
-    "tableCount": 2,
-    "netQuality": "Standard",
-    "surfaceType": "Composite/Weatherproof",
-    "pricing": {
-      "isFree": true,
-      "costDetails": "Free to play while grabbing food or drinks (first-come, first-served)"
-    },
-    "amenities": {
-      "paddlesProvided": true,
-      "ballsProvided": true,
-      "lighting": "Outdoor ambient lighting",
-      "drinksAvailable": true
-    },
-    "hours": "Open daily during standard biergarten hours",
-    "notes": "A popular open-air German biergarten vibe where casual outdoor tables are set up for patrons."
-  },
-  {
     "id": "west-jersey-ttc",
     "name": "West Jersey Table Tennis Center",
     "location": {
